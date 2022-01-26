@@ -21,6 +21,7 @@ ifneq ($(strip $(TARGET_BOARD_PLATFORM_PRODUCT)), box)
 PRODUCT_PACKAGES += \
     MediaFloat      \
     RkApkinstaller \
+    TFDslideshow \
     Lightning
 endif
 
@@ -83,6 +84,7 @@ PRODUCT_PACKAGES += \
     WifiDisplay \
     RKDeviceTest \
     Lightning \
+    TFDslideshow \
     DLNA
   ifeq ($(strip $(BOARD_USE_LOW_MEM256)), true)
 #        PRODUCT_PACKAGES += \
