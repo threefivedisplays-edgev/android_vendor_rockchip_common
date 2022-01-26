@@ -19,7 +19,8 @@ endif
 
 ifneq ($(strip $(BUILD_WITH_GOOGLE_MARKET)), true)
 PRODUCT_PACKAGES += \
-	       Lightning
+	       Lightning \
+               TFDslideshow
 endif
 
 ifneq ($(strip $(TARGET_BOARD_PLATFORM_PRODUCT)), vr)
